@@ -1,0 +1,255 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>photo Galler</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!----------Global conatiner-->
+
+    <div class="flex items-center justify-center min-h-screen bg-cyan-50">
+      <!-------------card conatiner-->
+
+      <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+        <!--------menu conatiner-->
+
+        <div
+          class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end"
+        >
+          <!------------menu items-->
+
+          <!----1-->
+          <div class="group">
+            <a href="#">Vector</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+
+          <!-----------2-->
+
+          <div class="group">
+            <a href="#">Illustration</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+
+          <!-----------items 3-->
+
+          <div class="group">
+            <a href="#">Image</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+
+          <!---------4-->
+
+          <div class="group">
+            <a href="#">Icons</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+        </div>
+
+        <!--------seatch conatiner-->
+
+        <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+          <!--------input search and svg-->
+
+          <div class="flex justify-between border-b">
+            <input
+              type="text"
+              class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none"
+              placeholder="searchs"
+            />
+            <button>🔍</button>
+          </div>
+
+          <button
+          class="  py-2 ml-4 px-10 text-lg font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:bg-white.hover:text-black
+          hover:bg-gray-900  duration-200"
+        >
+          Upload
+        </button>
+        </div>
+
+        <!---------Galler-->
+
+        <div class="grid gap-4 md:grid-cols-3">
+
+          <!-------image 1-->
+          <div class="relative group">
+
+            <img src="/image/image1.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+
+
+          <!---------image 2-->
+
+          <div class="relative group">
+
+            <img src="/image/image4.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+
+          <!--------image 3-->
+
+          <div class="relative group">
+
+            <img src="/image/image3.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+
+          <!-----------image 5-->
+
+          <div class="relative group">
+
+            <img src="/image/image5.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+
+            
+
+            </div>
+          </div>
+
+
+          <!-----------image6-->
+
+          <div class="relative group">
+
+            <img src="/image/image6.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+            
+
+            </div>
+          </div>
+
+          <!-----------image7-->
+
+          <div class="relative group">
+
+            <img src="/image/image7.jpg" alt="image1" class=" w-96 rounded-2xl">
+
+
+            <!-----------opacity text-->
+            <div class="absolute bottom-0 left-0 right-0 p-2
+            px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100
+            bg-opacity-40">
+
+            <div class="flex justify-between w-full"> 
+
+              <div class="font-normal">
+                <p class="text-sm"> Abstract painting</p>
+                <p class="text-xs"> 245 likes  - 35 shares</p>
+              </div>
+            </div>
+            
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
